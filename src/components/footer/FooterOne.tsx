@@ -140,12 +140,12 @@ function FooterOne() {
                                     <span>Follow Us:</span>
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.facebook.com/shieldnsealvacuumsealers/">
                                                 <i className="fa-brands fa-facebook-f" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://twitter.com/shieldnseal">
                                                 <i className="fa-brands fa-twitter" />
                                             </a>
                                         </li>
@@ -183,7 +183,7 @@ function FooterOne() {
                         <div className="col-lg-12">
                             <div className="copyright-between-1">
                                 <p className="disc">
-                                    Copyright 2025 <a href="#">©Ekomart</a>. All rights reserved.
+                                    Copyright 2025 © <a href="#"> ShieldnSeal</a>. All rights reserved.
                                 </p>
                                 <a href="#" className="playstore-app-area">
                                     <span>Download App</span>

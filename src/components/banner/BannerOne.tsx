@@ -100,8 +100,6 @@ const BannerOne = () => {
                 </div>
             </div>
             {/* rts banner area end */}
-
-            <CategoryBb />
         </div>
     );
 };

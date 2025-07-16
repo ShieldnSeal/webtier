@@ -30,9 +30,9 @@ const WeeklyBestSelling: React.FC = () => {
     // product content
     const selectedPosts = Product.slice(1, 11);
 
-    const postIndicesSection1 = [1, 5, 6, 4, 7, 8, 9, 10, 11, 12, 13, 15];
-    const postIndicesSection2 = [5, 6, 4, 7, 8, 5, 6, 5, 8, 9, 18, 12];
-    const postIndicesSection3 = [5, 6, 8, 7, 3, 2, 1, 5, 8, 9, 13, 2];
+    const postIndicesSection1 = [1, 2, 3, 4, 5, 6, 12, 13, 14, 15, 16, 17];
+    const postIndicesSection2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+    const postIndicesSection3 = [12, 13, 14, 15, 16, 17, 18, 19, 20, 21];
     const postIndicesSection4 = [1, 2, 6, 7, 10, 2, 1, 5, 8, 11, 12, 16];
 
     // Helper function to get posts from indices
@@ -55,7 +55,7 @@ const WeeklyBestSelling: React.FC = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="title-area-between">
-                                    <h2 className="title-left">Weekly Best Selling Groceries</h2>
+                                    <h2 className="title-left">Best Seller</h2>
                                     <ul
                                         className="nav nav-tabs best-selling-grocery"
                                         id="myTab"
@@ -66,7 +66,7 @@ const WeeklyBestSelling: React.FC = () => {
                                                 onClick={() => setActiveTab('tab1')}
                                                 className={`nav-link ${activeTab === 'tab1' ? 'active' : ''}`}
                                             >
-                                                Frozen Foods
+                                                All
                                             </button>
                                         </li>
                                         <li className="nav-item" role="presentation">
@@ -74,7 +74,7 @@ const WeeklyBestSelling: React.FC = () => {
                                                 onClick={() => setActiveTab('tab2')}
                                                 className={`nav-link ${activeTab === 'tab2' ? 'active' : ''}`}
                                             >
-                                                Diet Foods
+                                                Bags
                                             </button>
                                         </li>
                                         <li className="nav-item" role="presentation">
@@ -82,15 +82,7 @@ const WeeklyBestSelling: React.FC = () => {
                                                 onClick={() => setActiveTab('tab3')}
                                                 className={`nav-link ${activeTab === 'tab3' ? 'active' : ''}`}
                                             >
-                                                Healthy Foods
-                                            </button>
-                                        </li>
-                                        <li className="nav-item" role="presentation">
-                                            <button
-                                                onClick={() => setActiveTab('tab4')}
-                                                className={`nav-link ${activeTab === 'tab4' ? 'active' : ''}`}
-                                            >
-                                                Vitamin Items
+                                                Rolls
                                             </button>
                                         </li>
                                     </ul>

@@ -11,6 +11,8 @@ import FooterOne from "@/components/footer/FooterOne";
 import { CartProvider } from "@/components/header/CartContext";
 import { WishlistProvider } from "@/components/header/WishlistContext";
 import { ToastContainer, toast } from 'react-toastify';
+import SealerBags from "@/components/product/SealerBags";
+import SealerRolls from "@/components/product/SealerRolls";
 
 
 export default function Home() {
@@ -23,12 +25,14 @@ export default function Home() {
           <HeaderOne />
           <BannerOne />
           <FeatureOne />
-          <FeatureProduct />
           <DiscountProduct />
           <WeeklyBestSelling />
           <FeatureDiscount />
+          <SealerBags />
+          <SealerRolls />
+          <FeatureProduct />
           <TrandingProduct />
-          <BlogOne />
+          {/* <BlogOne /> */}
           <FooterOne />
         </div>
       </CartProvider>
