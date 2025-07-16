@@ -146,31 +146,25 @@ function HeaderOne() {
                                 <div className="header-mid-wrapper-between">
                                     <div className="nav-sm-left">
                                         <ul className="nav-h_top">
-                                            <li><a href="/about">About Us</a></li>
-                                            <li><a href="/account">My Account</a></li>
-                                            <li><a href="/wishlist">Wishlist</a></li>
+                                            <li><a>(530)478-0238</a></li>
+                                            <li><a href="mailto:sales@shieldnseal.com"><span id="et-info-email">sales@shieldnseal.com</span></a></li>
                                         </ul>
-                                        <p className="para">We deliver to your everyday from 7:00 to 22:00</p>
                                     </div>
                                     <div className="nav-sm-left">
                                         <ul className="nav-h_top language">
+                                            <li><a href="/">Shop</a></li>
+                                            <li><a href="/account">My Account</a></li>
                                             <li className="category-hover-header language-hover">
-                                                <a href="#">English</a>
+                                                <a href="#">Wholesale Area</a>
                                                 <ul className="category-sub-menu">
-                                                    <li><a href="#"><span>Italian</span></a></li>
-                                                    <li><a href="#"><span>Russian</span></a></li>
-                                                    <li><a href="#"><span>Chinian</span></a></li>
+                                                    <li><a href="/404"><span>Wholesale Forms</span></a></li>
+                                                    <li><a href="/404"><span>ACH Instructions Memo</span></a></li>
                                                 </ul>
                                             </li>
-                                            <li className="category-hover-header language-hover">
-                                                <a href="#">USD</a>
-                                                <ul className="category-sub-menu">
-                                                    <li><a href="#"><span>Rubol</span></a></li>
-                                                    <li><a href="#"><span>Rupi</span></a></li>
-                                                    <li><a href="#"><span>Euro</span></a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="/trackorder">Track Order</a></li>
+                                            <li><a href="/404">Retailers</a></li>
+                                            <li><a href="/404">Blog</a></li>
+                                            <li><a href="/404">Return Policy</a></li>
+                                            <li><a href="/404">Contact</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -189,11 +183,6 @@ function HeaderOne() {
                                         <img src="/assets/images/logo/snslogonew.png" alt="logo-main" className="logo" />
                                     </a>
                                     <div className="category-search-wrapper">
-                                        <div className="category-btn category-hover-header">
-                                            <img className="parent" src="/assets/images/icons/bar-1.svg" alt="icons" />
-                                            <span>Categories</span>
-                                            <CategoryMenu />
-                                        </div>
                                         <form onSubmit={handleSubmit} className="search-header" autoComplete="off">
                                             <input
                                                 ref={inputRef}
@@ -262,11 +251,6 @@ function HeaderOne() {
                                             <i className="fa-light fa-user" />
                                             <span>Account</span>
                                         </a>
-                                        <a href="/shop-compare" className="btn-border-only account compare-number">
-                                            <i className="fa-regular fa-code-compare" />
-                                            <span className="number">{compareItems.length}</span>
-                                        </a>
-                                        <WishList />
                                         <Cart />
                                     </div>
                                 </div>
