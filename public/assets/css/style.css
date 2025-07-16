@@ -16837,7 +16837,7 @@ li.with-megamenu:hover .rts-megamenu {
 }
 
 .megamenu-item-wrapper .single-megamenu-wrapper {
-  flex-basis: 25%;
+  flex-basis: 50%;
   position: relative;
 }
 
