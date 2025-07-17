@@ -16,9 +16,7 @@ export default function Home() {
                                 <div className="contact-banner-content">
                                     <h1 className="title">Ask Us Question</h1>
                                     <p className="disc">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                                        pretium mollis ex, vel interdum augue faucibus sit amet. Proin
-                                        tempor purus ac suscipit...
+                                        
                                     </p>
                                 </div>
                             </div>
@@ -34,36 +32,20 @@ export default function Home() {
                                 <div className="contact-left-area-main-wrapper">
                                     <h2 className="title">You can ask us questions !</h2>
                                     <p className="disc">
-                                        Contact us for all your questions and opinions, or you can solve
-                                        your problems in a shorter time with our contact offices.
+                                        Hi there, welcome to Shield N Seal. We’re a small California based family business, we don’t use an international answering service, so if you call or email us, there is a good chance you will get to talk to one of us directly. No matter what, you’ll be talking to a real person that cares that your questions are answered and that you are getting the products that you want. Thanks so much, and we look forward to hearing from you!
                                     </p>
                                     <div className="location-single-card">
                                         <div className="icon">
                                             <i className="fa-light fa-location-dot" />
                                         </div>
                                         <div className="information">
-                                            <h3 className="title">Berlin Germany Store</h3>
-                                            <p>259 Daniel Road, FKT 2589 Berlin, Germany.</p>
+                                            <h3 className="title">ShieldNSeal Office</h3>
+                                            <p>PO Box 2471, Nevada City, CA 95959</p>
                                             <a href="#" className="number">
-                                                +856 (76) 259 6328
+                                                +1 (530) 478 0238
                                             </a>
                                             <a href="#" className="email">
-                                                info@example.com
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div className="location-single-card">
-                                        <div className="icon">
-                                            <i className="fa-light fa-location-dot" />
-                                        </div>
-                                        <div className="information">
-                                            <h3 className="title">Frankfurt Germany Store</h3>
-                                            <p>259 Daniel Road, FKT 2589 Berlin, Germany.</p>
-                                            <a href="#" className="number">
-                                                +856 (76) 259 6328
-                                            </a>
-                                            <a href="#" className="email">
-                                                info@example.com
+                                                info@shieldnseal.com
                                             </a>
                                         </div>
                                     </div>

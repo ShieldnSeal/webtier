@@ -10,12 +10,9 @@ function ComponentName() {
       <div className="row">
         <div className="col-lg-12">
           <div className="inner-content-about-area">
-            <h1 className="title">Do You Want To Know Us?</h1>
+            <h1 className="title">Welcome To Shield N Seal</h1>
             <p className="disc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              pretium mollis ex, vel interdum augue faucibus sit amet. Proin
-              tempor purus ac suscipit sagittis. Nunc finibus euismod enim, eu
-              finibus nunc ullamcorper et.
+              Shield N Seal is a family business, owned and operated by the father and son team of Larry and Jon Heiniemi. It’s based in the gorgeous foothills of The Sierra Nevadas, in Nevada City, California. The air is clean, the trees are green, and the river is blue.
             </p>
             <a href="#" className="rts-btn btn-primary">
               Contact Us
