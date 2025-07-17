@@ -76,9 +76,9 @@ function SealerRolls() {
     // product content
     const selectedPosts = Product.slice(1, 11);
 
-    const postIndicesSection1 = [1];
-    const postIndicesSection2 = [5];
-    const postIndicesSection3 = [6];
+    const postIndicesSection1 = [13];
+    const postIndicesSection2 = [14];
+    const postIndicesSection3 = [15];
     const postIndicesSection4 = [16];
 
     // Helper function to get posts from indices
@@ -230,23 +230,6 @@ function SealerRolls() {
                                         </SwiperSlide>
                                         <SwiperSlide>
                                             {postsSection2.map((post: PostType, index: number) => (
-                                                <div
-                                                    key={index}
-                                                    className=""
-                                                >
-                                                    <div className="single-shopping-card-one">
-                                                        <WeeklyBestSellingMain
-                                                            Slug={post.slug}
-                                                            ProductImage={post.image}
-                                                            ProductTitle={post.title}
-                                                            Price={post.price}
-                                                        />
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            {postsSection3.map((post: PostType, index: number) => (
                                                 <div
                                                     key={index}
                                                     className=""

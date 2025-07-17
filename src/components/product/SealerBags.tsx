@@ -79,7 +79,7 @@ function SealerBags() {
     const postIndicesSection1 = [1];
     const postIndicesSection2 = [5];
     const postIndicesSection3 = [6];
-    const postIndicesSection4 = [16];
+    const postIndicesSection4 = [9];
 
     // Helper function to get posts from indices
     const getPostsByIndices = (indices: number[]): PostType[] =>
@@ -230,23 +230,6 @@ function SealerBags() {
                                         </SwiperSlide>
                                         <SwiperSlide>
                                             {postsSection2.map((post: PostType, index: number) => (
-                                                <div
-                                                    key={index}
-                                                    className=""
-                                                >
-                                                    <div className="single-shopping-card-one">
-                                                        <WeeklyBestSellingMain
-                                                            Slug={post.slug}
-                                                            ProductImage={post.image}
-                                                            ProductTitle={post.title}
-                                                            Price={post.price}
-                                                        />
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            {postsSection3.map((post: PostType, index: number) => (
                                                 <div
                                                     key={index}
                                                     className=""
