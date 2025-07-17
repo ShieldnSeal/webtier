@@ -274,5 +274,89 @@
         "price": "26.00",
         "publishedDate": "15 Jan, 2023",
         "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+    },
+    {
+        "id": 24,
+        "slug": "Smart-fresh-frut",
+        "image": "S01.jpg",
+        "bannerImg": "S01.jpg",
+        "category": "Business",
+        "title": "Maintenance Kits",
+        "author": "David Smith",
+        "price": "19.80",
+        "publishedDate": "15 Jan, 2023",
+        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+    },
+    {
+        "id": 25,
+        "slug": "Smart-fresh-frut",
+        "image": "S02.jpg",
+        "bannerImg": "06.png",
+        "category": "Business",
+        "title": "16″ Professional Vacuum Sealer SNS 760L",
+        "author": "David Smith",
+        "price": "26.00",
+        "publishedDate": "15 Jan, 2023",
+        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+    },
+    {
+        "id": 26,
+        "slug": "Smart-fresh-frut",
+        "image": "S03.jpg",
+        "bannerImg": "06.png",
+        "category": "Business",
+        "title": "15″ Commercial Grade Vacuum Sealer SNS 700",
+        "author": "David Smith",
+        "price": "26.00",
+        "publishedDate": "15 Jan, 2023",
+        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+    },
+    {
+        "id": 27,
+        "slug": "Smart-fresh-frut",
+        "image": "S04.jpg",
+        "bannerImg": "06.png",
+        "category": "Business",
+        "title": "16″ Professional Vacuum Sealer SNS 750",
+        "author": "David Smith",
+        "price": "26.00",
+        "publishedDate": "15 Jan, 2023",
+        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+    },
+    {
+        "id": 28,
+        "slug": "Smart-fresh-frut",
+        "image": "S05.jpg",
+        "bannerImg": "06.png",
+        "category": "Business",
+        "title": "11″ Commercial Grade Vacuum Sealer SNS 605",
+        "author": "David Smith",
+        "price": "26.00",
+        "publishedDate": "15 Jan, 2023",
+        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+    },
+    {
+        "id": 29,
+        "slug": "Smart-fresh-frut",
+        "image": "S06.jpg",
+        "bannerImg": "06.png",
+        "category": "Business",
+        "title": "15″ Heavy Duty Impact Sealer SNS 2100",
+        "author": "David Smith",
+        "price": "26.00",
+        "publishedDate": "15 Jan, 2023",
+        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+    },
+    {
+        "id": 30,
+        "slug": "Smart-fresh-frut",
+        "image": "S07.jpg",
+        "bannerImg": "06.png",
+        "category": "Business",
+        "title": "Power Cord",
+        "author": "David Smith",
+        "price": "19.99",
+        "publishedDate": "15 Jan, 2023",
+        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
     }
 ]

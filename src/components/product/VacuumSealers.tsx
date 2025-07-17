@@ -16,7 +16,7 @@ interface PostType {
     price?: string;
 }
 
-function FeatureProduct() {
+function VacuumSealers() {
 
 
     // number count up and down
@@ -76,10 +76,10 @@ function FeatureProduct() {
     // product content
     const selectedPosts = Product.slice(1, 11);
 
-    const postIndicesSection1 = [1];
-    const postIndicesSection2 = [5];
-    const postIndicesSection3 = [6];
-    const postIndicesSection4 = [16];
+    const postIndicesSection1 = [24];
+    const postIndicesSection2 = [25];
+    const postIndicesSection3 = [26];
+    const postIndicesSection4 = [27];
 
     // Helper function to get posts from indices
     const getPostsByIndices = (indices: number[]): PostType[] =>
@@ -210,58 +210,7 @@ function FeatureProduct() {
                                                     </div>
                                                 </div>
                                             ))}
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            {postsSection1.map((post: PostType, index: number) => (
-                                                <div
-                                                    key={index}
-                                                    className=""
-                                                >
-                                                    <div className="single-shopping-card-one">
-                                                        <WeeklyBestSellingMain
-                                                            Slug={post.slug}
-                                                            ProductImage={post.image}
-                                                            ProductTitle={post.title}
-                                                            Price={post.price}
-                                                        />
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            {postsSection2.map((post: PostType, index: number) => (
-                                                <div
-                                                    key={index}
-                                                    className=""
-                                                >
-                                                    <div className="single-shopping-card-one">
-                                                        <WeeklyBestSellingMain
-                                                            Slug={post.slug}
-                                                            ProductImage={post.image}
-                                                            ProductTitle={post.title}
-                                                            Price={post.price}
-                                                        />
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            {postsSection3.map((post: PostType, index: number) => (
-                                                <div
-                                                    key={index}
-                                                    className=""
-                                                >
-                                                    <div className="single-shopping-card-one">
-                                                        <WeeklyBestSellingMain
-                                                            Slug={post.slug}
-                                                            ProductImage={post.image}
-                                                            ProductTitle={post.title}
-                                                            Price={post.price}
-                                                        />
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </SwiperSlide>
+                                        </SwiperSlide>                                        
                                     </Swiper>
                                 </div>
                             </div>
@@ -274,4 +223,4 @@ function FeatureProduct() {
     )
 }
 
-export default FeatureProduct
+export default VacuumSealers

@@ -2,7 +2,7 @@ import BannerOne from "@/components/banner/BannerOne";
 import FeatureOne from "@/components/feature/FeatureOne";
 import HeaderOne from "@/components/header/HeaderOne";
 import DiscountProduct from "@/components/product/DiscountProduct";
-import FeatureProduct from "@/components/product/FeatureProduct";
+import FeatureProduct from "@/components/product/VacuumSealers";
 import WeeklyBestSelling from "@/components/product/WeeklyBestSelling";
 import FeatureDiscount from "@/components/product/FeatureDiscount";
 import TrandingProduct from "@/components/product/TrandingProduct";
@@ -13,6 +13,7 @@ import { WishlistProvider } from "@/components/header/WishlistContext";
 import { ToastContainer, toast } from 'react-toastify';
 import SealerBags from "@/components/product/SealerBags";
 import SealerRolls from "@/components/product/SealerRolls";
+import VacuumSealers from "@/components/product/VacuumSealers";
 
 
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
           <FeatureDiscount />
           <SealerBags />
           <SealerRolls />
-          <FeatureProduct />
+          <VacuumSealers />
           <TrandingProduct />
           {/* <BlogOne /> */}
           <FooterOne />
