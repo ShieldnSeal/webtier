@@ -6,7 +6,7 @@ function NavItem() {
             <nav>
                 <ul className="parent-nav">
                     <li className="parent">
-                        <a href="/about">Vacuum Sealers</a>
+                        <a href="/shop-vacuum-sealer">Vacuum Sealers</a>
                     </li>
                     <li className="parent with-megamenu">
                         <a href="#">Vacuum Sealer Bags & Rolls</a>

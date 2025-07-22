@@ -81,7 +81,9 @@ const CompareElements: React.FC = () => {
               <div className="navigator-breadcrumb-wrapper">
                 <a href="/">Home</a>
                 <i className="fa-regular fa-chevron-right" />
-                <a className="current" href="#">Vendor Details</a>
+                <a href="/">Shop</a>
+                <i className="fa-regular fa-chevron-right" />
+                <a className="current" href="#">{slug}</a>
               </div>
             </div>
           </div>
