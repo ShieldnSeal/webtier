@@ -163,7 +163,7 @@ function HeaderOne() {
                                             </li>
                                             <li><a href="/404">Retailers</a></li>
                                             <li><a href="/404">Blog</a></li>
-                                            <li><a href="/404">Return Policy</a></li>
+                                            <li><a href="/return-policy">Return Policy</a></li>
                                             <li><a href="/contact">Contact</a></li>
                                         </ul>
                                     </div>
