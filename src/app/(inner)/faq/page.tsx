@@ -36,7 +36,7 @@ export default function Home() {
       <hr className="section-seperator" />
     </div>
   </div>
-{/* privacy policy area start */}
+{/* faq area start */}
 <div className="rts-pricavy-policy-area rts-section-gap">
     <div className="container">
       <div className="row">
@@ -74,7 +74,7 @@ export default function Home() {
       </div>
     </div>
   </div>
-  {/* privacy policy area end */}
+  {/* faq area end */}
 </>
       <FooterOne />
 
