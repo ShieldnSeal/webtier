@@ -38,7 +38,7 @@ export default function BlogGridPage() {
                                 <a href="/">Home</a>
                                 <i className="fa-regular fa-chevron-right" />
                                 <a className="current" href="#">
-                                    Blog Grid
+                                    Blog
                                 </a>
                             </div>
                         </div>
@@ -67,37 +67,11 @@ export default function BlogGridPage() {
                                         Slug={post.slug}
                                         blogImage={post.image}
                                         blogTitle={post.title}
+                                        blogDate={post.publishedDate}
                                     />
                                 </div>
                             </div>
                         ))}
-                    </div>
-
-                    {/* Pagination */}
-                    <div className="row mt--50">
-                        <div className="col-lg-12">
-                            <div className="pagination-area-main-wrappper">
-                                <ul>
-                                    {[...Array(totalPages)].map((_, i) => (
-                                        <li key={i}>
-                                            <button
-                                                className={currentPage === i + 1 ? 'active' : ''}
-                                                onClick={() => setCurrentPage(i + 1)}
-                                            >
-                                                {(i + 1).toString().padStart(2, '0')}
-                                            </button>
-                                        </li>
-                                    ))}
-                                    {currentPage < totalPages && (
-                                        <li>
-                                            <button onClick={() => setCurrentPage(currentPage + 1)}>
-                                                <i className="fa-regular fa-chevrons-right" />
-                                            </button>
-                                        </li>
-                                    )}
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

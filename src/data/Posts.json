@@ -5,9 +5,9 @@
         "image": "05.jpg",
         "bannerImg": "05.jpg",
         "category": "Business Solution",
-        "title": "Profitable business makes your profit Best Solution",
+        "title": "Shield N Seal Now Offers Custom Bag Printing",
         "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
+        "publishedDate": "Nov 9, 2017",
         "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
     },
     {
@@ -16,9 +16,9 @@
         "image": "06.jpg",
         "bannerImg": "06.jpg",
         "category": "Business Solution",
-        "title": "Details Profitable business makes your profit",
+        "title": "Shield N Seal Proudly Sponsors Barbecue Champions Northsiders BBQ",
         "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
+        "publishedDate": "Jan 25, 2017",
         "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
     },
     {
@@ -27,9 +27,9 @@
         "image": "07.jpg",
         "bannerImg": "07.jpg",
         "category": "Business Solution",
-        "title": "One Profitable business makes your profit",
+        "title": "Northsiders All Purpose Cajun Poultry Brine",
         "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
+        "publishedDate": "Apr 25, 2017",
         "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
     },
     {
@@ -38,9 +38,9 @@
         "image": "08.jpg",
         "bannerImg": "08.jpg",
         "category": "Business Solution",
-        "title": "Me Profitable business makes your profit",
+        "title": "Sage and Orange Butternut Squash Recipe",
         "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
+        "publishedDate": "Jun 3, 2016",
         "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
     },
     {
@@ -49,9 +49,9 @@
         "image": "09.jpg",
         "bannerImg": "09.jpg",
         "category": "Business",
-        "title": "Details business makes your profit",
+        "title": "Sous Vide Marinated Crispy Skin Salmon",
         "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
+        "publishedDate": "Jul 12, 2016",
         "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
     },
     {
@@ -60,9 +60,9 @@
         "image": "10.jpg",
         "bannerImg": "10.jpg",
         "category": "Business",
-        "title": "Firebase business makes your profit",
+        "title": "The Five Best Sous Vide Hamburger Recipes to Liven Up Your Summer",
         "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
+        "publishedDate": "Jun 17, 2016",
         "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
     },
     {
@@ -71,9 +71,9 @@
         "image": "11.jpg",
         "bannerImg": "11.jpg",
         "category": "Business",
-        "title": "Netlyfy business makes your profit",
+        "title": "White Wine and Herb Marinated Chicken",
         "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
+        "publishedDate": "May 15, 2016",
         "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
     },
     {
@@ -82,86 +82,9 @@
         "image": "12.jpg",
         "bannerImg": "12.jpg",
         "category": "Business",
-        "title": "Profitable business makes your profit",
+        "title": "Simple Sous Vide Steak Recipe",
         "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 9,
-        "slug": "firebase-business-makes-your-profit",
-        "image": "10.jpg",
-        "bannerImg": "10.jpg",
-        "category": "Business",
-        "title": "Firebase business makes your profit",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 10,
-        "slug": "netlyfy-business-makes-your-profit",
-        "image": "11.jpg",
-        "bannerImg": "11.jpg",
-        "category": "Business",
-        "title": "Netlyfy business makes your profit",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 11,
-        "slug": "profitable-business-makes-your-profit",
-        "image": "12.jpg",
-        "bannerImg": "12.jpg",
-        "category": "Business",
-        "title": "Profitable business makes your profit",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 12,
-        "slug": "Shion-Fixation-Fueling-Your-Passion-for-All-Things-Stylish",
-        "image": "01.jpg",
-        "bannerImg": "01.jpg",
-        "category": "Business",
-        "title": "Shion Fixation: Fueling Your Passion for All Things Stylish",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 13,
-        "slug": "ashion-fixation-fueling-your-passion-for-all-things-stylish",
-        "image": "02.jpg",
-        "bannerImg": "02.jpg",
-        "category": "Business",
-        "title": "Ashion Fixation: Fueling Your Passion for All Things Stylish",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 14,
-        "slug": "fixation-fueling-your-passion-for-all-things-stylish",
-        "image": "03.jpg",
-        "bannerImg": "03.jpg",
-        "category": "Business",
-        "title": "Fixation: Fueling Your Passion for All Things Stylish",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 15,
-        "slug": "fashion-fixation-fueling-your-passion-for-all-things-stylish",
-        "image": "04.jpg",
-        "bannerImg": "04.jpg",
-        "category": "Business",
-        "title": "Fashion Fixation: Fueling Your Passion for All Things Stylish",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
+        "publishedDate": "Apr 29, 2016",
         "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
     }
 ]
