@@ -6,12 +6,14 @@ interface BlogGridMainProps {
     Slug: string;
     blogImage: string;
     blogTitle?: string;
+    blogDate?: string;
 }
 
 const BlogGridMain: React.FC<BlogGridMainProps> = ({
     Slug,
     blogImage,
     blogTitle,
+    blogDate
 }) => {
     return (
         <>
@@ -22,11 +24,7 @@ const BlogGridMain: React.FC<BlogGridMainProps> = ({
                 <div className="tag-area">
                     <div className="single">
                         <i className="fa-light fa-clock" />
-                        <span>15 Sep, 2023</span>
-                    </div>
-                    <div className="single">
-                        <i className="fa-light fa-folder" />
-                        <span>Modern Fashion</span>
+                        <span>{blogDate}</span>
                     </div>
                 </div>
                 <a className="title-main" href={`/blog/${Slug}`}>
