@@ -41,7 +41,7 @@ const BannerOne = () => {
                                                 <span className="pre">
                                                     Enjoy free shipping on online orders over $250! – Limit of 10 boxes per order.
                                                 </span>
-                                                <h1 className="title">
+                                                <h1 className="title text-black">
                                                     11″ x 23″ Black and Clear Bag <br />
                                                     Now ON SALE
                                                 </h1>
@@ -49,13 +49,13 @@ const BannerOne = () => {
                                                     href="/shop"
                                                     className="rts-btn btn-primary radious-sm with-icon"
                                                 >
-                                                    <div className="btn-text">Shop Deals</div>
-                                                    <div className="arrow-icon">
-                                                        <i className="fa-light fa-arrow-right"></i>
-                                                    </div>
-                                                    <div className="arrow-icon">
-                                                        <i className="fa-light fa-arrow-right"></i>
-                                                    </div>
+                                                <div className="btn-text">Shop Deals</div>
+                                                <div className="arrow-icon">
+                                                    <i className="fa-light fa-arrow-right"></i>
+                                                </div>
+                                                <div className="arrow-icon">
+                                                    <i className="fa-light fa-arrow-right"></i>
+                                                </div>
                                                 </a>
                                             </div>
                                         </div>

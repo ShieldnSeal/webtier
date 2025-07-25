@@ -17236,15 +17236,15 @@ li.with-megamenu:hover .rts-megamenu {
 }
 
 .bg_one-banner {
-  background-image: url(/assets/images/banner/shield-n-seal-banner.jpg);
+  background-image: url(/assets/images/banner/slider1.jpg);
 }
 
 .bg_one-banner {
-  background-image: url(/assets/images/banner/shield-n-seal-banner.jpg);
+  background-image: url(/assets/images/banner/slider1.jpg);
 }
 
 .bg_one-banner.two {
-  background-image: url(/assets/images/banner/shield-n-seal-web-banner-v2.jpg);
+  background-image: url(/assets/images/banner/slider2.jpg);
 }
 
 .category-area-main-wrapper-one {
@@ -17253,22 +17253,24 @@ li.with-megamenu:hover .rts-megamenu {
 }
 
 .banner-one-inner-content {
-  text-align: center;
+  text-align: left;
 }
 
 .banner-one-inner-content .rts-btn {
-  margin: auto;
+  margin-left: 50px;
 }
 
 .banner-one-inner-content .pre {
-  color: #FFE884;
+  color: #555;
   font-size: 16px;
+  margin-left: 50px;
 }
 
 .banner-one-inner-content .title {
-  color: #fff;
-  font-weight: 600;
+  color: #000;
+  font-weight: 300;
   margin-bottom: 42px;
+  margin-left: 50px;
   font-weight: 600;
   margin-top: 12px;
 }
