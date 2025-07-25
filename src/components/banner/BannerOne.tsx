@@ -65,11 +65,11 @@ const BannerOne = () => {
                                         <div className="banner-bg-image bg_image bg_one-banner two ptb--120 ptb_md--80 ptb_sm--60">
                                             <div className="banner-one-inner-content">
                                                 <span className="pre">
-                                                    Get up to 30% off on your first $150 purchase
+                                                    Enjoy free shipping on online orders over $250! – Limit of 10 boxes per order.
                                                 </span>
                                                 <h1 className="title">
-                                                    Do not miss our amazing <br />
-                                                    grocery deals
+                                                    11″ x 23″ Black and Clear Bag <br />
+                                                    Now ON SALE
                                                 </h1>
                                                 <a
                                                     href="/shop"

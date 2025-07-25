@@ -161,7 +161,7 @@ function HeaderOne() {
                                                     <li><a href="/404"><span>ACH Instructions Memo</span></a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="/404">Retailers</a></li>
+                                            <li><a href="/retailers">Retailers</a></li>
                                             <li><a href="/blog">Blog</a></li>
                                             <li><a href="/return-policy">Return Policy</a></li>
                                             <li><a href="/contact">Contact</a></li>
