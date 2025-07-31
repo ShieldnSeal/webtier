@@ -25,7 +25,6 @@ export default function Home() {
         <ToastContainer position="top-right" autoClose={3000} />
           <HeaderOne />
           <BannerOne />
-          <FeatureOne />
           <DiscountProduct />
           <WeeklyBestSelling />
           <FeatureDiscount />
