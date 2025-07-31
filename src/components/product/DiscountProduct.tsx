@@ -37,6 +37,7 @@ function DiscountProduct() {
     return (
         <div>
             {/* rts grocery feature area start */}
+            <br></br>
             <div className="rts-grocery-feature-area rts-section-gapBottom">
                 <div className="container">
                     <div className="row">
