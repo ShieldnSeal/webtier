@@ -43,10 +43,7 @@ function DiscountProduct() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="title-area-between">
-                                <h2 className="title-left">Products With Discounts</h2>
-                                <div className="countdown">
-                                    <div className="countDown">12/05/2025 10:20:00</div>
-                                </div>
+                                <h2 className="title-left">Best Sellers</h2>
                             </div>
                         </div>
                     </div>
