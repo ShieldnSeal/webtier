@@ -18,7 +18,7 @@ function DiscountProduct() {
     // product content
     const selectedPosts = Product.slice(1, 11);
 
-    const postIndicesSection1 = [1, 6, 12, 15];
+    const postIndicesSection1 = [1, 4, 2, 9];
     const postIndicesSection2 = [5, 6, 4, 7, 8, 5, 6, 5, 8, 9, 18, 12];
     const postIndicesSection3 = [5, 6, 8, 7, 3, 2, 1, 5, 8, 9, 13, 2];
     const postIndicesSection4 = [1, 2, 6, 7, 10, 2, 1, 5, 8, 11, 12, 16];
@@ -55,12 +55,12 @@ function DiscountProduct() {
                                         <a href="shop-details.html" className="single-discount-with-bg">
                                             <div className="inner-content">
                                                 <h4 className="title">
-                                                    5″ x 8″ Black Zipper Bags <br />
-                                                    Bag SNS 1700
+                                                    15″ X 20″ <br />                                                    
+                                                    SNS 4300 Product
                                                 </h4>
                                                 <div className="price-area">
                                                     <span>Only</span>
-                                                    <h4 className="title">$15.00</h4>
+                                                    <h4 className="title">$50.00</h4>
                                                 </div>
                                             </div>
                                         </a>
@@ -70,12 +70,12 @@ function DiscountProduct() {
                                         >
                                             <div className="inner-content">
                                                 <h4 className="title">
-                                                    15″ x 50′ Black Rolls <br />
-                                                    Roll SNS 800
+                                                    11″ X 24″ <br />
+                                                    SNS 400 Product
                                                 </h4>
                                                 <div className="price-area">
                                                     <span>Only</span>
-                                                    <h4 className="title">$15.00</h4>
+                                                    <h4 className="title">$63.00</h4>
                                                 </div>
                                             </div>
                                         </a>
