@@ -17247,6 +17247,13 @@ li.with-megamenu:hover .rts-megamenu {
   background-image: url(/assets/images/banner/slider2.jpg);
 }
 
+.bg_one-banner.three {
+  background-image: url(/assets/images/banner/slider3.jpg);
+}
+
+.bg_one-banner.four {
+  background-image: url(/assets/images/banner/slider4.jpg);
+}
 .category-area-main-wrapper-one {
   border-radius: 6px;
   overflow: hidden;

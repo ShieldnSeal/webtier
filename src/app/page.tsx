@@ -27,7 +27,7 @@ export default function Home() {
           <BannerOne />
           <DiscountProduct />
           <WeeklyBestSelling />
-          <FeatureDiscount />
+          {/* <FeatureDiscount /> */}
           <SealerBags />
           <SealerRolls />
           <VacuumSealers />
