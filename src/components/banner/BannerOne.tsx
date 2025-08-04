@@ -22,10 +22,10 @@ const BannerOne = () => {
                                     autoplay={{
                                         delay: 4000,
                                     }}
-                                    navigation={{
-                                        nextEl: '.swiper-button-next',
-                                        prevEl: '.swiper-button-prev',
-                                    }}
+                                    // navigation={{
+                                    //     nextEl: '.swiper-button-next',
+                                    //     prevEl: '.swiper-button-prev',
+                                    // }}
                                     breakpoints={{
                                         0: { slidesPerView: 1, spaceBetween: 0 },
                                         320: { slidesPerView: 1, spaceBetween: 0 },
@@ -37,25 +37,20 @@ const BannerOne = () => {
                                 >
                                     <SwiperSlide>
                                         <div className="banner-bg-image bg_image bg_one-banner ptb--120 ptb_md--80 ptb_sm--60">
-                                            <div className="banner-one-inner-content">
+                                            <div className="banner-one-inner-content col-8">
                                                 <span className="pre">
-                                                    Enjoy free shipping on online orders over $250! – Limit of 10 boxes per order.
+                                                    Enjoy free shipping on online orders over $250!
                                                 </span>
+                                                <br/>
                                                 <h1 className="title text-black">
-                                                    11″ x 23″ Black and Clear Bag <br />
+                                                    11″ x 23″ Black and Clear Bag <br/>
                                                     Now ON SALE
                                                 </h1>
                                                 <a
                                                     href="/shop"
                                                     className="rts-btn btn-primary radious-sm with-icon"
                                                 >
-                                                <div className="btn-text">Shop Deals</div>
-                                                <div className="arrow-icon">
-                                                    <i className="fa-light fa-arrow-right"></i>
-                                                </div>
-                                                <div className="arrow-icon">
-                                                    <i className="fa-light fa-arrow-right"></i>
-                                                </div>
+                                                    <div className="btn-text">Shop Now</div>
                                                 </a>
                                             </div>
                                         </div>
@@ -63,10 +58,11 @@ const BannerOne = () => {
 
                                     <SwiperSlide>
                                         <div className="banner-bg-image bg_image bg_one-banner two ptb--120 ptb_md--80 ptb_sm--60">
-                                            <div className="banner-one-inner-content">
+                                            <div className="banner-one-inner-content col-8">
                                                 <span className="pre">
-                                                    Enjoy free shipping on online orders over $250! – Limit of 10 boxes per order.
+                                                    Enjoy free shipping on online orders over $250!
                                                 </span>
+                                                <br/>
                                                 <h1 className="title">
                                                     11″ x 23″ Black and Clear Bag <br />
                                                     Now ON SALE
@@ -76,24 +72,11 @@ const BannerOne = () => {
                                                     className="rts-btn btn-primary radious-sm with-icon"
                                                 >
                                                     <div className="btn-text">Shop Now</div>
-                                                    <div className="arrow-icon">
-                                                        <i className="fa-light fa-arrow-right"></i>
-                                                    </div>
-                                                    <div className="arrow-icon">
-                                                        <i className="fa-light fa-arrow-right"></i>
-                                                    </div>
                                                 </a>
                                             </div>
                                         </div>
                                     </SwiperSlide>
                                 </Swiper>
-
-                                <button className="swiper-button-next">
-                                    <i className="fa-regular fa-arrow-right"></i>
-                                </button>
-                                <button className="swiper-button-prev">
-                                    <i className="fa-regular fa-arrow-left"></i>
-                                </button>
                             </div>
                         </div>
                     </div>
