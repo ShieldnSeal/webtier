@@ -46,6 +46,7 @@
 /* Default  */
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap');
 
 :root {
   --color-primary: #629D23;
@@ -81,8 +82,8 @@
   --s-extra-bold: 800;
   --s-black: 900;
   --transition: 0.3s;
-  --font-primary: "Barlow", sans-serif;
-  --font-secondary: "Barlow", sans-serif;
+  --font-primary: "Nata", sans-serif;
+  --font-secondary: "Nata", sans-serif;
   --font-three: "FontAwesome";
   --font-size-b1: 16px;
   --font-size-b2: 16px;
@@ -116,7 +117,7 @@ body {
   line-height: var(--line-height-b1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Barlow", sans-serif;
+  font-family: "Nata", sans-serif;
   color: var(--color-body);
   font-weight: var(--p-regular);
   position: relative;
@@ -190,7 +191,7 @@ h6,
 .h5,
 .h6 {
   word-break: break-word;
-  font-family: "Barlow", sans-serif;
+  font-family: "Nata", sans-serif;
   line-height: 1.4074;
   color: var(--color-heading-1);
 }
@@ -17247,6 +17248,13 @@ li.with-megamenu:hover .rts-megamenu {
   background-image: url(/assets/images/banner/slider2.jpg);
 }
 
+.bg_one-banner.three {
+  background-image: url(/assets/images/banner/slider3.jpg);
+}
+
+.bg_one-banner.four {
+  background-image: url(/assets/images/banner/slider4.jpg);
+}
 .category-area-main-wrapper-one {
   border-radius: 6px;
   overflow: hidden;
@@ -25214,7 +25222,7 @@ body.modal-open {
 .side-bar button.close-icon-menu {
   max-width: max-content;
   margin-right: auto;
-  margin-left: -53px;
+  margin-left: -43px;
   margin-top: 0;
   position: absolute;
 }
