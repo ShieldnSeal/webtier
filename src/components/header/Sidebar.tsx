@@ -34,27 +34,7 @@ const Sidebar = () => {
                 <button className="close-icon-menu" onClick={handleMenuClickClose}>
                     <i className="far fa-times" />
                 </button>
-                <form action="#" className="search-input-area-menu mt--30">
-                    <input type="text" placeholder="Search..." />
-                    <button>
-                        <i className="fa-light fa-magnifying-glass" />
-                    </button>
-                </form>
                 <div className="mobile-menu-nav-area tab-nav-btn mt--20">
-                    <nav>
-                        <div className="nav nav-tabs" id="nav-tab" role="tablist">
-                            <button
-                               onClick={() => setActiveTab('tab1')}
-                                                className={`nav-link ${activeTab === 'tab1' ? 'active' : ''}`}>
-                                Menu
-                            </button>
-                            <button
-                                onClick={() => setActiveTab('tab2')}
-                                                className={`nav-link ${activeTab === 'tab2' ? 'active' : ''}`}>
-                                Category
-                            </button>
-                        </div>
-                    </nav>
                     <div className="tab-content" id="nav-tabContent">
                         {activeTab === 'tab1' &&
                         <div>
@@ -78,11 +58,11 @@ const Sidebar = () => {
                     <div className="contact-area">
                         <div className="phone">
                             <i className="fa-light fa-headset" />
-                            <a href="#">02345697871</a>
+                            <a href="#">(530)478-0238</a>
                         </div>
                         <div className="phone">
                             <i className="fa-light fa-envelope" />
-                            <a href="#">02345697871</a>
+                            <a href="mailto:sales@shieldnseal.com">sales@shieldnseal.com</a>
                         </div>
                     </div>
                     <div className="buton-area-bottom">
