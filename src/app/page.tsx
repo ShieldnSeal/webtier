@@ -14,6 +14,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import SealerBags from "@/components/product/SealerBags";
 import SealerRolls from "@/components/product/SealerRolls";
 import VacuumSealers from "@/components/product/VacuumSealers";
+import FreeShipping from "@/components/common/FreeShipping";
 
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
           <SealerBags />
           <SealerRolls />
           <TrandingProduct />
+          <FreeShipping />
           {/* <BlogOne /> */}
           <FooterOne />
         </div>
