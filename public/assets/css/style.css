@@ -28667,6 +28667,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 
 ul.submenu.mm-collapse.mm-show {
   display: block;
+  padding-left: 30px;
 }
 
 .best-selling-grocery li button.active {
