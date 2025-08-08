@@ -16,9 +16,9 @@ export default function Home() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="navigator-breadcrumb-wrapper">
-                  <a href="index.html">Home</a>
+                  <a href="/">Home</a>
                   <i className="fa-regular fa-chevron-right" />
-                  <a className="current" href="register.html">
+                  <a className="current" href="#">
                     Register
                   </a>
                 </div>
@@ -37,13 +37,6 @@ export default function Home() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="registration-wrapper-1">
-                  <div className="logo-area mb--0">
-                    <img
-                      className="mb--10"
-                      src="assets/images/logo/fav.png"
-                      alt="logo"
-                    />
-                  </div>
                   <h3 className="title">Register Into Your Account</h3>
                   <form action="#" className="registration-form">
                     <div className="input-wrapper">
@@ -72,7 +65,7 @@ export default function Home() {
                         </a>
                       </div>
                       <p>
-                        Already Have Account? <a href="#">Login</a>
+                        Already Have Account? <a href="/login">Login</a>
                       </p>
                     </div>
                   </form>

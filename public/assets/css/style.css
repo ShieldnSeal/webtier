@@ -271,6 +271,24 @@ h6 a,
   color: #6c7279;
 }
 
+.free-shipping {
+  position: fixed;
+  bottom: 30px;
+  right: 100px;
+  width: 150px;
+  height: 50px;
+  padding: 12px 20px;
+  background-color: #629D23;
+  background-image: url(/assets/images/offer/freeship.png);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  font-size: 16px;
+  z-index: 1000; /* Make sure it's on top */
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
   h1,
@@ -18215,6 +18233,20 @@ li.with-megamenu:hover .rts-megamenu {
   border-radius: 6px;
 }
 
+.free-shipping-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000; /* Example primary color */
+  transition: background-color 0.3s ease;
+}
+
 .rts-btn.with-icon {
   display: flex;
   align-items: center;
@@ -21567,6 +21599,10 @@ body.modal-open {
   margin: 0;
 }
 
+.free-shipping-modal {
+  max-width: 200px;
+  border: none;
+}
 .modal-compare-area-start .modal-dialog {
   max-width: 1800px;
   border: none;
@@ -27335,6 +27371,30 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 .rts-product-details-section.product-details-popup-section {
   position: relative;
   border: none;
+}
+
+.modal-contents {
+  text-align: center;
+  padding: 24px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'RobotoSlab-Regular', sans-serif;
+}
+
+.main-message {
+  font-size: 2.0rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.disclaimer a {
+  color: #2d8f5e;
+  text-decoration: underline;
+}
+
+.action-section {
+  margin: 20px 0;
 }
 
 @media (max-width: 1200px) {

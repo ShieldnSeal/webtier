@@ -9,6 +9,7 @@ import BestSellingWrap from '@/components/product/BestSellingWrap';
 import RecentlyAddedTwo from "@/components/product/RecentlyAddedTwo";
 import ShortService from "@/components/service/ShortService";
 import BackToTop from "@/components/common/BackToTop";
+import FreeShipping from "@/components/common/FreeShipping";
 
 
 export default function Home() {
@@ -18,31 +19,13 @@ export default function Home() {
             <BannerFive />
             <FeatureCategory />
             <BestDiscount />
-
-
-
-
-
             <BestSellingWrap />
-
-
-
-
-
-
-
-
-
-
             <RecentlyAddedTwo />
             <BlogFive />
-
-
-
             <ShortService />
             <FooterThree />
+            <FreeShipping />
             <BackToTop />
-
         </div>
     );
 }
