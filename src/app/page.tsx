@@ -28,9 +28,9 @@ export default function Home() {
           <DiscountProduct />
           <WeeklyBestSelling />
           {/* <FeatureDiscount /> */}
+          <VacuumSealers />
           <SealerBags />
           <SealerRolls />
-          <VacuumSealers />
           <TrandingProduct />
           {/* <BlogOne /> */}
           <FooterOne />
