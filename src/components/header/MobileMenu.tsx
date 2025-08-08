@@ -58,7 +58,7 @@ const MobileMenu = () => {
                         <li><Link className="mobile-menu-link" href="/about">About Us</Link></li>
                         <li><Link className="mobile-menu-link" href="/contact">Contact</Link></li>
                         <li><Link className="mobile-menu-link" href="/faq">FAQ</Link></li>
-                        <li><Link className="mobile-menu-link" href="/404">How To Maintain Your Vacuum Sealer</Link></li>
+                        <li><Link className="mobile-menu-link" href="/maintain-sealer">How To Maintain Your Vacuum Sealer</Link></li>
                         <li><Link className="mobile-menu-link" href="/404">Storing Food With Your Vacuum Sealer</Link></li>
                         <li><Link className="mobile-menu-link" href="/404">Wholesale</Link></li>
                     </ul>

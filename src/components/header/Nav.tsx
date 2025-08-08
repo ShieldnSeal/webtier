@@ -142,17 +142,17 @@ function NavItem() {
                                 </a>
                             </li>
                             <li>
-                                <a className="sub-b" href="/404">
+                                <a className="sub-b" href="/maintain-sealer">
                                     How To Maintain Your Vacuum Sealer
                                 </a>
                             </li>
                             <li>
-                                <a className="sub-b" href="/404">
+                                <a className="sub-b" href="/store-food">
                                     Storing Food With Your Vacuum Sealer
                                 </a>
                             </li>
                             <li>
-                                <a className="sub-b" href="/404">
+                                <a className="sub-b" href="/wholesale">
                                     Wholesale
                                 </a>
                             </li>

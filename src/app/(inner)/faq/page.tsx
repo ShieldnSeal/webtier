@@ -66,7 +66,7 @@ export default function Home() {
                 style={{ color: "#616164", fontWeight: 600 }}
               >
                 If you have any additional questions regarding our shipping policies please contact us 
-                via telephone at: <a href="tel:15304780238">+1 (530) 478-0238</a>
+                via telephone at: <a href="tel:15304780238">+1 (844) 999-4034</a>
               </p>
             </div>
           </div>
