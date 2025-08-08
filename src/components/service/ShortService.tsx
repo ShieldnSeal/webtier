@@ -3,7 +3,7 @@ import React from 'react';
 function ComponentName() {
   return (
     <div>
-<div className="rts-shorts-service-area rts-section-gap bg_primary">
+<div className="rts-shorts-service-area rts-section-gap2 bg_primary">
   <div className="container">
     <div className="row g-5">
       <div className="col-lg-3 col-md-6 col-sm-12 col-12">
