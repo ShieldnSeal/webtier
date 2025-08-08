@@ -325,7 +325,7 @@ function HeaderThree() {
                                         {/* button-area end */}
                                     </div>
                                     <div className="logo-search-category-wrapper">
-                                        <a href="index.html" className="logo-area">
+                                        <a href="/" className="logo-area">
                                             <img
                                                 src="assets/images/logo/snslogonew.png"
                                                 alt="logo-main"
