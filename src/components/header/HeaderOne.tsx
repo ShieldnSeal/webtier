@@ -157,8 +157,8 @@ function HeaderOne() {
                                             <li className="category-hover-header language-hover">
                                                 <a href="#">Wholesale Area</a>
                                                 <ul className="category-sub-menu">
-                                                    <li><a href="/404"><span>Wholesale Forms</span></a></li>
-                                                    <li><a href="/404"><span>ACH Instructions Memo</span></a></li>
+                                                    <li><a href="/whole-registration"><span>Wholesale Forms</span></a></li>
+                                                    <li><a href="/ach-instructions"><span>ACH Instructions Memo</span></a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="/retailers">Retailers</a></li>
