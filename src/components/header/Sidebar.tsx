@@ -58,7 +58,7 @@ const Sidebar = () => {
                     <div className="contact-area">
                         <div className="phone">
                             <i className="fa-light fa-headset" />
-                            <a href="#">(530)478-0238</a>
+                            <a href="#">(844)999-4034</a>
                         </div>
                         <div className="phone">
                             <i className="fa-light fa-envelope" />

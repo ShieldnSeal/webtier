@@ -50,7 +50,7 @@ const WeeklyBestSelling: React.FC = () => {
         <div>
             <>
                 {/* best selling groceris */}
-                <div className="weekly-best-selling-area rts-section-gap bg_light-1">
+                <div className="weekly-best-selling-area rts-section-gap2 bg_light-1">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">

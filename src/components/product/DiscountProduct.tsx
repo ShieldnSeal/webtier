@@ -42,13 +42,6 @@ function DiscountProduct() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="title-area-between">
-                                <h2 className="title-left">Best Sellers</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-12">
                             <div className="product-with-discount">
                                 <div className="row g-5">
                                     <div className="col-xl-4 col-lg-12">

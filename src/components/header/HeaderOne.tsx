@@ -146,7 +146,7 @@ function HeaderOne() {
                                 <div className="header-mid-wrapper-between">
                                     <div className="nav-sm-left">
                                         <ul className="nav-h_top">
-                                            <li><a>(530)478-0238</a></li>
+                                            <li><a>(844)999-4034</a></li>
                                             <li><a href="mailto:sales@shieldnseal.com"><span id="et-info-email">sales@shieldnseal.com</span></a></li>
                                         </ul>
                                     </div>
