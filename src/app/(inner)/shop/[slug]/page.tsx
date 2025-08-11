@@ -32,9 +32,7 @@ const CompareElements: React.FC = () => {
       quantity: 1,
       active: true,
     });
-    setAdded(true);
-    toast('Successfully Added To Cart!');
-    setTimeout(() => setAdded(false), 5000);
+    toast.success('Successfully Added To Cart!', {icon : false})
   };
 
   const [activeTab, setActiveTab] = useState<string>('tab1');
@@ -508,7 +506,6 @@ const CompareElements: React.FC = () => {
       <RelatedProduct />
       <ShortService />
       <FooterOne />
-      <ToastContainer />
     </div>
   );
 };
