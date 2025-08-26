@@ -39,12 +39,12 @@ const BannerOne = () => {
                                         <div className="banner-bg-image bg_image bg_one-banner ptb--120 ptb_md--80 ptb_sm--60">
                                             <div className="banner-one-inner-content col-8">
                                                 <span className="pre">
-                                                    Enjoy free shipping on online orders over $250!
+                                                    Our 11″ x 23″ Super Thick, 5 mil black and clear vacuum seal bags deliver unmatched strength and freshness.                                                    
                                                 </span>
                                                 <br/>
                                                 <h1 className="title text-black">
-                                                    11″ x 23″ Black and Clear Bag <br/>
-                                                    Now ON SALE
+                                                    Seal Big. Seal Strong. Seal Fresh.<br/>
+                                                    Perfect for serious storage. 
                                                 </h1>
                                                 <a
                                                     href="/shop"
@@ -60,12 +60,12 @@ const BannerOne = () => {
                                         <div className="banner-bg-image bg_image bg_one-banner two ptb--120 ptb_md--80 ptb_sm--60">
                                             <div className="banner-one-inner-content col-8">
                                                 <span className="pre">
-                                                    Enjoy free shipping on online orders over $250!
+                                                Clearance savings on ShieldNSeal’s toughest 5mil bags & more.
                                                 </span>
                                                 <br/>
                                                 <h1 className="title">
-                                                    11″ x 23″ Black and Clear Bag <br />
-                                                    Now ON SALE
+                                                    Cook it. Store it. Keep it fresh for less.<br />
+                                                    Clearance Deals 
                                                 </h1>
                                                 <a
                                                     href="/shop"
@@ -81,12 +81,12 @@ const BannerOne = () => {
                                         <div className="banner-bg-image bg_image bg_one-banner three ptb--120 ptb_md--80 ptb_sm--60">
                                             <div className="banner-one-inner-content col-8">
                                                 <span className="pre">
-                                                    Enjoy free shipping on online orders over $250!
+                                                Professional-grade sealing power for your kitchen.
                                                 </span>
                                                 <br/>
                                                 <h1 className="title">
-                                                    11″ x 23″ Black and Clear Bag <br />
-                                                    Now ON SALE
+                                                    Preserve More. Waste Less. Live Better. <br />
+                                                    16" Pro Vacuum Sealer
                                                 </h1>
                                                 <a
                                                     href="/shop"
@@ -102,12 +102,12 @@ const BannerOne = () => {
                                         <div className="banner-bg-image bg_image bg_one-banner four ptb--120 ptb_md--80 ptb_sm--60">
                                             <div className="banner-one-inner-content col-8">
                                                 <span className="pre">
-                                                    Enjoy free shipping on online orders over $250!
+                                                Sign Up & Save on Professional-Grade Vacuum Seal Bags & Sealers
                                                 </span>
                                                 <br/>
                                                 <h1 className="title">
-                                                    11″ x 23″ Black and Clear Bag <br />
-                                                    Now ON SALE
+                                                Sign Up. Shop Now. Save Today. <br />
+                                                Freshness You Can Trust
                                                 </h1>
                                                 <a
                                                     href="/shop"
