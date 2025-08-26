@@ -2,7 +2,8 @@
 import { useState } from 'react';
 import WeeklyBestSellingMain from "@/components/product-main/WeeklyBestSellingMain";
 import Product from '@/data/Product.json';
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Autoplay } from 'swiper/modules';
 
 interface PostType {
     category?: string;
@@ -30,10 +31,16 @@ const WeeklyBestSelling: React.FC = () => {
     // product content
     const selectedPosts = Product.slice(1, 11);
 
-    const postIndicesSection1 = [1, 2, 3, 4, 5, 6, 12, 13, 14, 15, 16, 17];
-    const postIndicesSection2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-    const postIndicesSection3 = [12, 13, 14, 15, 16, 17, 18, 19, 20, 21];
-    const postIndicesSection4 = [1, 2, 6, 7, 10, 2, 1, 5, 8, 11, 12, 16];
+    // const postIndicesSection1 = [1, 2, 3, 4, 5, 6, 12, 13, 14, 15, 16, 17];
+    // const postIndicesSection2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+    // const postIndicesSection3 = [12, 13, 14, 15, 16, 17, 18, 19, 20, 21];
+    // const postIndicesSection4 = [1, 2, 6, 7, 10, 2, 1, 5, 8, 11, 12, 16];
+
+    const postIndicesSection1 = [1];
+    const postIndicesSection2 = [2];
+    const postIndicesSection3 = [12];
+    const postIndicesSection4 = [16];
+
 
     // Helper function to get posts from indices
     const getPostsByIndices = (indices: number[]): PostType[] =>
@@ -56,7 +63,16 @@ const WeeklyBestSelling: React.FC = () => {
                             <div className="col-lg-12">
                                 <div className="title-area-between">
                                     <h2 className="title-left">Bags And Rolls</h2>
-                                    <ul
+                                    
+                                    <div className="next-prev-swiper-wrapper">
+                                        <div className="swiper-button-prev">
+                                            <i className="fa-regular fa-chevron-left" />
+                                        </div>
+                                        <div className="swiper-button-next">
+                                            <i className="fa-regular fa-chevron-right" />
+                                        </div>
+                                    </div>
+                                    {/* <ul
                                         className="nav nav-tabs best-selling-grocery"
                                         id="myTab"
                                         role="tablist"
@@ -85,19 +101,42 @@ const WeeklyBestSelling: React.FC = () => {
                                                 Rolls
                                             </button>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-lg-12">
-                                {activeTab === 'tab1' &&
-                                    <div>
-                                        <div className="row g-4">
+                                <div className="category-area-main-wrapper-one">
+                                        <Swiper
+                                        modules={[Navigation, Autoplay]}
+                                        scrollbar={{
+                                            hide: true,
+                                        }}
+                                        autoplay={{
+                                            delay: 3000, // Delay between transitions (3 seconds)
+                                            disableOnInteraction: false, // Continue autoplay after user interactions
+                                        }}
+                                        loop={true}
+                                        navigation={{
+                                            nextEl: ".swiper-button-next",
+                                            prevEl: ".swiper-button-prev",
+                                        }}
+                                        className="mySwiper-category-5"
+                                        breakpoints={{
+                                            0: { slidesPerView: 1, spaceBetween: 30 },
+                                            320: { slidesPerView: 2, spaceBetween: 30 },
+                                            480: { slidesPerView: 3, spaceBetween: 30 },
+                                            640: { slidesPerView: 3, spaceBetween: 30 },
+                                            840: { slidesPerView: 4, spaceBetween: 30 },
+                                            1140: { slidesPerView: 6, spaceBetween: 30 },
+                                        }}
+                                    >
+                                        <SwiperSlide>
                                             {postsSection1.map((post: PostType, index: number) => (
                                                 <div
                                                     key={index}
-                                                    className="col-xxl-2 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12"
+                                                    className=""
                                                 >
                                                     <div className="single-shopping-card-one">
                                                         <WeeklyBestSellingMain
@@ -109,65 +148,94 @@ const WeeklyBestSelling: React.FC = () => {
                                                     </div>
                                                 </div>
                                             ))}
-                                        </div>
-                                    </div>}
-                                {activeTab === 'tab2' && <div>
-                                    <div className="row g-4">
-                                        {postsSection2.map((post: PostType, index: number) => (
-                                            <div
-                                                key={index}
-                                                className="col-xxl-2 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12"
-                                            >
-                                                <div className="single-shopping-card-one">
-                                                    <WeeklyBestSellingMain
-                                                        Slug={post.slug}
-                                                        ProductImage={post.image}
-                                                        ProductTitle={post.title}
-                                                        Price={post.price}
-                                                    />
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                            {postsSection2.map((post: PostType, index: number) => (
+                                                <div
+                                                    key={index}
+                                                    className=""
+                                                >
+                                                    <div className="single-shopping-card-one">
+                                                        <WeeklyBestSellingMain
+                                                            Slug={post.slug}
+                                                            ProductImage={post.image}
+                                                            ProductTitle={post.title}
+                                                            Price={post.price}
+                                                        />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        ))}
-                                    </div>
-                                </div>}
-                                {activeTab === 'tab3' && <div>
-                                    <div className="row g-4">
-                                        {postsSection3.map((post: PostType, index: number) => (
-                                            <div
-                                                key={index}
-                                                className="col-xxl-2 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12"
-                                            >
-                                                <div className="single-shopping-card-one">
-                                                    <WeeklyBestSellingMain
-                                                        Slug={post.slug}
-                                                        ProductImage={post.image}
-                                                        ProductTitle={post.title}
-                                                        Price={post.price}
-                                                    />
+                                            ))}
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                            {postsSection3.map((post: PostType, index: number) => (
+                                                <div
+                                                    key={index}
+                                                    className=""
+                                                >
+                                                    <div className="single-shopping-card-one">
+                                                        <WeeklyBestSellingMain
+                                                            Slug={post.slug}
+                                                            ProductImage={post.image}
+                                                            ProductTitle={post.title}
+                                                            Price={post.price}
+                                                        />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        ))}
-                                    </div>
-                                </div>}
-                                {activeTab === 'tab4' && <div>
-                                    <div className="row g-4">
-                                        {postsSection4.map((post: PostType, index: number) => (
-                                            <div
-                                                key={index}
-                                                className="col-xxl-2 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12"
-                                            >
-                                                <div className="single-shopping-card-one">
-                                                    <WeeklyBestSellingMain
-                                                        Slug={post.slug}
-                                                        ProductImage={post.image}
-                                                        ProductTitle={post.title}
-                                                        Price={post.price}
-                                                    />
+                                            ))}
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                            {postsSection4.map((post: PostType, index: number) => (
+                                                <div
+                                                    key={index}
+                                                    className=""
+                                                >
+                                                    <div className="single-shopping-card-one">
+                                                        <WeeklyBestSellingMain
+                                                            Slug={post.slug}
+                                                            ProductImage={post.image}
+                                                            ProductTitle={post.title}
+                                                            Price={post.price}
+                                                        />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        ))}
-                                    </div>
-                                </div>}
+                                            ))}
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                            {postsSection1.map((post: PostType, index: number) => (
+                                                <div
+                                                    key={index}
+                                                    className=""
+                                                >
+                                                    <div className="single-shopping-card-one">
+                                                        <WeeklyBestSellingMain
+                                                            Slug={post.slug}
+                                                            ProductImage={post.image}
+                                                            ProductTitle={post.title}
+                                                            Price={post.price}
+                                                        />
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                            {postsSection2.map((post: PostType, index: number) => (
+                                                <div
+                                                    key={index}
+                                                    className=""
+                                                >
+                                                    <div className="single-shopping-card-one">
+                                                        <WeeklyBestSellingMain
+                                                            Slug={post.slug}
+                                                            ProductImage={post.image}
+                                                            ProductTitle={post.title}
+                                                            Price={post.price}
+                                                        />
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </SwiperSlide>
+                                    </Swiper>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -40,6 +40,7 @@ function DiscountProduct() {
             <br></br>
             <div className="rts-grocery-feature-area rts-section-gapBottom">
                 <div className="container">
+                    <h2 className="title-center" style={{textAlign:"center"}}>Best Sellers</h2>
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="product-with-discount">
